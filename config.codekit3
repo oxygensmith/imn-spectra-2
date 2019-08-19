@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31491",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/css/editor-style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -134,9 +142,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
