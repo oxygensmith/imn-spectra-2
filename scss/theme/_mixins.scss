@@ -1,0 +1,137 @@
+@mixin centerer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @mixin constrained {
+      width: 100%;
+      max-width: $constrain-max;
+      margin: 0px auto;
+  }
+  
+  @mixin constrained-900 {
+      width: 100%;
+      max-width: 900px;
+      margin: 0px auto;
+  }
+  
+  @mixin padding-bottom-thick {
+      padding-bottom: $padding-thick;
+  }
+  
+  @mixin padding-bottom-large {
+      padding-bottom: $padding-large;
+  }
+  
+  @mixin background-tile-default {
+      background-attachment: initial;
+      background-size: initial;
+      background-position: initial;
+      background-repeat: repeat;
+  }
+  
+  @mixin transition-default {
+     -webkit-transition: all .15s;
+     transition: all .15s;
+  }
+  
+  @mixin img-responsive {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+  
+  @mixin image-bg-default {
+      text-indent: -9999px;
+      overflow: hidden;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  
+  @mixin image-bg-cover {
+      text-indent: -9999px;
+      overflow: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  
+  @mixin image-bg-cover-with-text {
+      overflow: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  
+  @mixin transition-default {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  @mixin transition-quick {
+    -webkit-transition: all .15s;
+    transition: all .15s;
+  }
+  
+  @mixin absolute-position-horizontal-centre {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+  @mixin border-radius-default {
+      -webkit-border-radius: $border-radius-default;
+      border-radius: $border-radius-default;
+  }
+  
+  @mixin rounded {
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+  }
+  
+  @mixin top-mobile-buttons { // common to top mobile nav buttons / links.
+      display: block;
+      position: absolute;
+      font-size: 33px;
+      top: 20px;
+      padding: 0px;
+      color: $imn-grey-darkest !important;
+      background-color: $navbar-bg-color;
+  }
+  
+  @mixin rotate-45 {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+  }
+  
+  @mixin rotate-45-neg {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+  }
+  
+  @mixin big {
+      -webkit-transform: scale(3);
+      -moz-transform: scale(3);
+      -ms-transform: scale(3);
+      -o-transform: scale(3);
+      transform: scale(3);
+  }
+  
+  @mixin box-shadow-default {
+      -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
+      box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
+  }
+  
+  @mixin text-shadow-large {
+      text-shadow: 0px 3px 17px rgba(0, 0, 0, 0.5);
+  }

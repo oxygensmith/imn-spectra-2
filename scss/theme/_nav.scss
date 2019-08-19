@@ -1,0 +1,76 @@
+// topnav shape
+$topnav-background-small: $imn-white;
+$topnav-background-large: $imn-white;
+$topnav-height: 48px;
+
+// navbar shape
+$navbar-link-padding-mobile: 12px 24px 12px 24px;
+$navbar-link-padding-mobile-transform: 12px 24px 12px 24px;
+
+$navbar-link-padding: 24px 24px 24px 24px;
+$navbar-link-padding-transform: 18px 24px 18px 24px;
+
+$navbar-link-padding-wide: 45px 18px 45px 18px;
+$navbar-link-padding-wide-transform: 25px 18px 25px 18px;
+
+// navbar logo
+
+$navbar-logo-image-mobile: $imn-site-logo;
+$navbar-logo-width-mobile: 200px; // stays fixed on mobile
+$navbar-logo-height-mobile: 74px;
+$navbar-logo-image: $imn-site-logo;
+$navbar-logo-width: 200px;
+$navbar-logo-height: 74px;
+$navbar-logo-image-transform: $imn-site-logo;
+$navbar-logo-width-transform: 200px;
+$navbar-logo-height-transform: 74px;
+
+// background and link colour
+// primary (main navigation) menu
+$navbar-bg-color: $imn-white;
+$navbar-bg-color-transform: $imn-primary;
+$navbar-link-color: $imn-primary;
+$navbar-link-color-transform: $imn-primary-light;
+
+$navbar-link-color-hover: $imn-primary-light;
+$navbar-link-color-hover-transform: $imn-primary-light;
+$navbar-link-bg-color-hover: transparent;
+$navbar-link-bg-color-hover-transform: transparent;
+
+// secondary (top navigation) menu
+$navbar-top-bg-color: $imn-primary;
+$navbar-top-bg-color-transform: $imn-grey-darkest;
+$navbar-top-link-color: $imn-white;
+$navbar-top-link-color-transform: $imn-white;
+
+$navbar-top-link-color-hover: $imn-primary-light;
+$navbar-top-link-color-hover-transform: $imn-primary-light;
+$navbar-top-link-bg-color-hover: transparent;
+$navbar-top-link-bg-color-hover-transform: transparent;
+
+// main link when its dropdown is open
+$navbar-link-color-open-dropdown: $imn-primary;
+$navbar-link-color-open-dropdown-transform: $imn-white;
+$navbar-link-bg-color-open-dropdown: $imn-white-almost;
+$navbar-link-bg-color-open-dropdown-transform: $imn-white-almost;
+
+// active links
+$navbar-link-active: $imn-primary-light;
+$navbar-link-active-transform: $imn-primary-light;
+$navbar-link-bg-active: transparent;
+$navbar-link-bg-active-transform: transparent;
+
+$navbar-top-link-active: $imn-primary-light;
+$navbar-top-link-active-transform: $imn-primary-light;
+$navbar-top-link-bg-active: transparent;
+$navbar-top-link-bg-active-transform: transparent;
+
+// searchbar
+$navsearchbar-bg-color: $imn-primary-dark;
+$navsearchbar-form-padding: 27px;
+$navsearchbar-form-padding-transform: 12px;
+$navsearchbar-form-padding-mobile: 25px;
+
+$navsearchbar-offsceen: ($navsearchbar-form-padding * -2);
+$navsearchbar-offsceen-transform: ($navsearchbar-form-padding-transform * -2);
+$navsearchbar-offsceen-mobile: ($navsearchbar-form-padding-mobile * -2);

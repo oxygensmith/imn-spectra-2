@@ -1,0 +1,64 @@
+$constrain-max: 1140px;
+$border-radius-default: 0px;
+$imn-background-tile: url('../../img/backgrounds/imn-background-pattern-tile.png');
+$imn-site-logo: url('../../img/logos/imn-logo-acronym-red.png');
+
+/* loading layer */
+$loading-layer-transition: opacity .6s ease-in-out;
+$loading-layer-background: #F7F5F2;
+
+// COLOUR VARIABLES
+$imn-primary: #cc3d2e; // red
+$imn-primary-dark: darken($imn-primary,10%);
+$imn-primary-light: lighten($imn-primary,10%);
+$imn-primary-verylight: lighten($imn-primary,30%);
+$imn-grey-darkest: #181818;
+$imn-grey-darker: #252525;
+$imn-charcoal: #35332f;
+$imn-grey-dark: #666;
+$imn-grey: #888;
+$imn-grey-light: #a0a0a0;
+$imn-white-almost: #f7f5f2;
+$imn-white: #fff;
+
+// SOCIAL COLOUR VARIABLES
+$sm-facebook:   #3b5998;
+$sm-twitter:    #00aced;
+$sm-googleplus: #dd4b39;
+$sm-youtube:    #bb0000;
+$sm-linkedin:   #007bb6;
+$sm-instagram:  #517fa4;
+$sm-pinterest:  #cb2027;
+$sm-vine:       #00bf8f;
+$sm-snapchat:   #fffc00;
+$sm-quora:      #a82400;
+$sm-flickr:     #ff0084;
+$sm-tumblr:     #32506d;
+$sm-vimeo:      #aad450;
+$sm-foursquare: #0072b1;
+$sm-soundcloud: #ff3a00;
+$sm-bandcamp:   #639AA9;
+
+
+// TYPOG VARIABLES
+$imn-type-headline: 'Abril Fatface',serif;
+$imn-type-serif: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+$imn-type-sans: 'Muli', 'Trebuchet MS', Arial, sans-serif;
+$imn-type-either: $imn-type-sans;
+$imn-type-default: $imn-type-serif;
+$imn-type-menu: $imn-type-sans;
+
+$imn-button-font: $imn-type-sans;
+$font-size-default: 1.6em;
+$line-height-default: 1.6em;
+
+// MARGIN/PADDING VARIABLES
+
+$padding-thin: 16px;
+$padding-medium: 24px;
+$padding-thick: 32px;
+$padding-large: 64px;
+$padding-huge: 128px;
+
+$margin-top-mobile: 100px;
+$margin-top-desktop: 100px;
