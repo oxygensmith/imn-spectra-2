@@ -74,3 +74,12 @@ $navsearchbar-form-padding-mobile: 25px;
 $navsearchbar-offsceen: ($navsearchbar-form-padding * -2);
 $navsearchbar-offsceen-transform: ($navsearchbar-form-padding-transform * -2);
 $navsearchbar-offsceen-mobile: ($navsearchbar-form-padding-mobile * -2);
+
+.navbar-brand .logo {
+    display: block;
+    width: $navbar-logo-width-mobile;
+    height: auto;
+    @media screen and (min-width: $breakpoint) {
+        width: $navbar-logo-width;    
+    }
+}

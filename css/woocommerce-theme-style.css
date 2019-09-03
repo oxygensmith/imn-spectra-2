@@ -406,8 +406,7 @@ table.shop_attributes th {
 	color: #ddd;
 	background-color:transparent;
 }
-table.shop_attributes td {
-}
+
 table.shop_attributes td p {
     color: #999;
     font-weight:400;
@@ -531,10 +530,6 @@ form.checkout_coupon,
 form.register {
     border: 1px solid #333;
     background: #222;
-}
-
-.checkout #order_review {
-  
 }
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
     background-color:#f4624a;

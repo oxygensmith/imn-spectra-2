@@ -1,7 +1,8 @@
 $constrain-max: 1140px;
 $border-radius-default: 0px;
-$imn-background-tile: url('../../img/backgrounds/imn-background-pattern-tile.png');
-$imn-site-logo: url('../../img/logos/imn-logo-acronym-red.png');
+$imn-background-tile: url('../img/backgrounds/imn-background-pattern-tile.png');
+$imn-site-logo: url('../img/logos/imn-logo-acronym-red.png');
+$breakpoint: 980px;
 
 /* loading layer */
 $loading-layer-transition: opacity .6s ease-in-out;
